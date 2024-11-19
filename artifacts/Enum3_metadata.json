@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Enum3.sol": "Enum3"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Enum2.sol": {
+			"keccak256": "0xf840b25c9f136120a71410e3109d87dc92d38173d7e1ba8085bc3c0e6fdb7ce4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://65cd8e1e6c707b418dc5a2295cd6e74451903164efd793aca41ffac2111ebca6",
+				"dweb:/ipfs/QmSWCtFMxL3qB1rnTH3BNCMVJNosKyw5upRZTEzjchwqCk"
+			]
+		},
+		"Enum3.sol": {
+			"keccak256": "0x2075ef777eb4a77ea66243bf6d1d475f12685bdeda1bf6c65001e0e8afce971f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dc8b10a0284754a28219e07b8a27e44fc548b36b70ebe1c15be757efff97e5f3",
+				"dweb:/ipfs/QmXCX9DoZrgVWircDRK5LFjhs4ZNzGAFzj53By6szLEBax"
+			]
+		}
+	},
+	"version": 1
+}

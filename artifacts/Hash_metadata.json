@@ -1,0 +1,89 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_x",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_y",
+						"type": "string"
+					}
+				],
+				"name": "bijiao",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_s",
+						"type": "string"
+					}
+				],
+				"name": "hash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Hash.sol": "Hash"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Hash.sol": {
+			"keccak256": "0x1624e7d26281545353af9f8ac71e9064f2233a9d51d5d9df1c08dfdf3dd5a166",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0d9b27220d20efc01a7455a6f8befb69d7ba8188f05e24841a95ed748be400e9",
+				"dweb:/ipfs/QmRdRZmkiD7oCeL3UPskHU5Vu6HECX1y7n5vUPH9ETtXm1"
+			]
+		}
+	},
+	"version": 1
+}

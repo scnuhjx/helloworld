@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "addr",
+						"type": "address"
+					}
+				],
+				"name": "callByAddr",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"DelegateCall.sol": "Caller_by_call"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"DelegateCall.sol": {
+			"keccak256": "0x34b17ebcb0d994cd656e28c857663a8bd4452559693e432a03f6d69976063832",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f4fbb408f1aff003deecb780af886fb67eaa1edc76ec83d829bdceecf362ccde",
+				"dweb:/ipfs/QmVjfxUrnFk9wipoKTxTsKT6VgmSkQn3MEgVxCwERqZnQu"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_add",
+						"type": "address"
+					}
+				],
+				"name": "getHjxAccouts",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MappingAcess.sol": "MappingAccess"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MappingAcess.sol": {
+			"keccak256": "0x4650184509453b4a09c5d6a7e903a167e9b4d0bd0fbac13e8ba3a2e7f3c9fbe4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://828e0e5ff9537b9dd3fdc762ba8272ed973807c62ea0b1a41eb4be8d44a7b852",
+				"dweb:/ipfs/QmQwZEizFESsoJC6LjFZ5hrM9ytez83nwjw78BiW8tr5Ts"
+			]
+		}
+	},
+	"version": 1
+}

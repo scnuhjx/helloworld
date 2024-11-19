@@ -1,0 +1,147 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Jiluwho",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "getBooks",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "title",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "author",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "ID",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct StructInit.Book",
+						"name": "",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "title",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "author",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "ID",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct StructInit.Book",
+						"name": "",
+						"type": "tuple"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "title",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "author",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "ID",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct StructInit.Book",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"structInit.sol": "StructInit"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"structInit.sol": {
+			"keccak256": "0x3698c9635b604a2439089dbf82d4364da4dde432178c64486bda8970adb5274d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5e0e49a9315424d28e6fbd198b553d8642dee64222a63d0b1fce43f119ef3309",
+				"dweb:/ipfs/QmT45WYV2gjcktUU7HYYWYeY5LBv4eefSAo7BT18UGF7RA"
+			]
+		}
+	},
+	"version": 1
+}

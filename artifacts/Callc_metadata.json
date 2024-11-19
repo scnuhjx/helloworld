@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_value1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_value2",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getValue1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CreateContract.sol": "Callc"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"CreateContract.sol": {
+			"keccak256": "0x028e3bbe1aac5e50ccd1c206e46dae08191259002fc5218d160646477a121677",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3326300b9b534db41353db3dbd60caf4b58b14ec4980d8bd1f046913332bb137",
+				"dweb:/ipfs/QmcoAFHwngAeGGkzzfJfSs9WomJJKgLLJbbxd9bt7s61Ab"
+			]
+		}
+	},
+	"version": 1
+}

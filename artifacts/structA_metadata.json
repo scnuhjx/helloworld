@@ -1,0 +1,61 @@
+{
+	"compiler": {
+		"version": "0.6.10+commit.00c0fcaf"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBookAuthor",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"structAccess.sol": "structA"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"structAccess.sol": {
+			"keccak256": "0x3636f91081ea6c4c429b30424b7b25f6809d439b149e1508128e30f84f123f2c",
+			"urls": [
+				"bzz-raw://ae2c3b03bee6b40f3da9b84d5546e00660c852ed6fad295f582017af9637c4a2",
+				"dweb:/ipfs/QmTwpkTb1syQ3g2hww7SFqLNcJf6ehTRzwcLKvr2SWt6zy"
+			]
+		}
+	},
+	"version": 1
+}

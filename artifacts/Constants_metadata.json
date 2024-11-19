@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "MY_ADDRESS",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "MY_STRING",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "MY_UINT",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Constants.sol": "Constants"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Constants.sol": {
+			"keccak256": "0xf8017c617c6679aad64656746e400ffb2b6162ae015c9924c80f6a221931b9ed",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3aff62516799fba168db1511701ef8341a8b1a40da3a771210c57b482937e50f",
+				"dweb:/ipfs/QmS7FexNgZnYRCMYqKmqfM19iw8hRghop9Y7fLDzYgxj2k"
+			]
+		},
+		"Immutable.sol": {
+			"keccak256": "0x00bcc6270c744de593488cb1bee1b1cdb5ac137930b7b34af3d9debfdb84c6f5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b98715059b4c92edbdeaf681a63cc7c6a6683f001ef0a5eabc262e897081c761",
+				"dweb:/ipfs/QmNnVj4HvXivUQZrRAnfCxStBTpTvWsjXLTF6Lgy8ffYLJ"
+			]
+		}
+	},
+	"version": 1
+}

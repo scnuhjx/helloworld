@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "encodePacked",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ABIEncodePacked.sol": "ABIEncodePacked"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ABIEncodePacked.sol": {
+			"keccak256": "0xfcb47e8caf33baa06b0d8e6eb9a0d0b9ff53e54c328bb0938d8a17ec8f6bbab6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e1aa5b6f400453443d4fad584789f638dced2a142261b8111f0ae337b52639b2",
+				"dweb:/ipfs/QmTMP8W5YaHdyLW1HDneSjSTvo69tZxsiWteRWXB56d2NJ"
+			]
+		}
+	},
+	"version": 1
+}

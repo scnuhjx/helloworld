@@ -2,7 +2,11 @@
 pragma solidity ^0.8.10;
 contract EncodewithSelector{
     uint256 public value;
-    
+    /*三种调用方式
+    btyes memory data=abi.encodeWithSignature("set(uint256)", arg);
+    address(this).call{value:1 ether}(data);//data调用数据放进去地址.call调用。
+
+    */
     function encode()external   returns(bool,bytes memory){
 
 

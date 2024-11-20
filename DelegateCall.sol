@@ -10,12 +10,14 @@ contract Counter{
 }
 contract Caller_by_call{
 
+   
 
-
-    uint count=20;
-    function callByAddr(address addr)public returns(bool){
-        bytes4 methodID=bytes4(keccak256("inc(uint)"));
-        addr.call(methodID,2);
+    uint public count=20;
+    function callByAddr(address addr)public returns(bool,bytes memory){
+        bytes4 methodID=bytes4(keccak256(bytes("inc(uint256)"))); //由4个字节组成的ID即selector函数选择器。
+        bytes memory data=abi.encodeWithSignature("inc(uint256)", 8);
+        data=abi.encodeWithSelector(methodID, 10);
+        return address(addr).delegatecall(data);
 
     }
 }

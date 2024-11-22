@@ -6,17 +6,40 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "bar",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "_value",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"name": "setValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "value",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -32,7 +55,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"StaticCall.sol": "Callee"
+			"Callee.sol": "Callee"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -46,12 +69,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"StaticCall.sol": {
-			"keccak256": "0x77b472b59683fa2b874d627e8f4bc19f599dc436f80ee9ebd3e2ddd9fed4e7e9",
+		"Callee.sol": {
+			"keccak256": "0xe30e739da4abc0bf8fe18f8b4e76b02b7683e85018bfdea4c3c09de48471f9bb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://008b91202ddb28795b90f9a7f08fce1e8fba050b3f19e64ed48298e54bba92e4",
-				"dweb:/ipfs/QmPFnXVd8TUVEtNo2ENK2BHjeDCo4CKYMHQW9bsrdLopSi"
+				"bzz-raw://284eae9ffa1434755d5695d5c330042d69fdd53e371c3b80fff1bc1c3e16c8a4",
+				"dweb:/ipfs/QmecE2HosdrJRVy6ghdXvadxYfrp4cPaqMRR8CUShq3hKm"
 			]
 		}
 	},

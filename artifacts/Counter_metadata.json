@@ -29,9 +29,9 @@
 				"name": "inc",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "nonpayable",
@@ -66,11 +66,11 @@
 	},
 	"sources": {
 		"DelegateCall.sol": {
-			"keccak256": "0xecd2cef58e3515c9f077a1631efe914bff0bf6d6043f5f545635010693e7cec8",
+			"keccak256": "0x7e2d856f9b1210ce60bb48b5d2573164f490b26a8f217a2e92ff58cb853e70ee",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7f694a78cda24bf82828507ee1b1f7f7bda513a83920d4c4f8f156ff5bc8892e",
-				"dweb:/ipfs/QmZcp1ymPMHHia1o5CaHotMadBCNVGfzAysxM4KXjr7m5w"
+				"bzz-raw://850975c5a1ca3e5c471fef57ce906a4abcfe4cb18bd8c5ec658bfbc0232eb99c",
+				"dweb:/ipfs/QmQfotwaNjZAJWPwiyKPScCjvKboo4MgpHAqoyS9Ae2Ape"
 			]
 		}
 	},

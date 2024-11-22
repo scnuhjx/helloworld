@@ -18,6 +18,33 @@
 						"internalType": "uint256[3]",
 						"name": "array",
 						"type": "uint256[3]"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "weight",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "height",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "sex",
+								"type": "string"
+							}
+						],
+						"internalType": "struct StaticArray.Human",
+						"name": "",
+						"type": "tuple"
 					}
 				],
 				"stateMutability": "nonpayable",
@@ -52,11 +79,11 @@
 	},
 	"sources": {
 		"DataLeixing.sol": {
-			"keccak256": "0x83d2bba0e637da0e739ee7763ea74504dacf6b6fa5b05b0821c78324c53fe3c5",
+			"keccak256": "0x14569e0370a6d2b6d948d7ba5f4c6cd666f263570290b81b12c8922ca5639607",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b176a61b1e8af506de5400d169dc89f82ba4cc34ba3b41b8d96e5adcb589f3d5",
-				"dweb:/ipfs/QmZKvZnZybXgM3F6Ki8G9SCTkXhCkyhHXnf1K1ZiiavmxQ"
+				"bzz-raw://cf974dcf448d6380b6cce1c490f26a3dc3a0142e8e2762edc0e724627115afc1",
+				"dweb:/ipfs/QmPGhx72jdb4PSjf9PSdDDPQgYNvf9NApqjhSSAK3AQB8U"
 			]
 		}
 	},

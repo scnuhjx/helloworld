@@ -12,16 +12,18 @@ contract StaticArray {
 
     }
 
-    function staticArray() external returns (uint length, uint[3] memory array,Human memory) {
+    function staticArray() external returns (string memory) {
         // 获取第 3 个元素的值
         uint element = balance[2];
         Human[] memory humans;
        humans[0]=Human('hjx',60,170,'male');
+       humans[1]=Human('zp',50,161,'female');
+       //uint8 leng=uint8(humans.length);
         // 设置第 3 个元素的值乘以 2
         balance[2] = element * 2;
         balance[1]=3;
 
         // 返回数组的长度和数组所有元素
-        return (balance.length, balance,humans[0]);
+        return (string(humans[1].name));
     }
 }

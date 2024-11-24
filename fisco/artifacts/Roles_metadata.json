@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.4.25+commit.59dbf8f1"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"fisco/Roles.sol": "Roles"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"fisco/Roles.sol": {
+			"keccak256": "0xc2de03effc25051006ad32bec097d48e53d0a8b884323e054850f6f457dc2720",
+			"urls": [
+				"bzzr://27a83177e7eb549685f75bcba7c8b977dc51a5cb453170ba5145235832d68296"
+			]
+		}
+	},
+	"version": 1
+}

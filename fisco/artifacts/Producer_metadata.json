@@ -1,0 +1,120 @@
+{
+	"compiler": {
+		"version": "0.4.25+commit.59dbf8f1"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "addProducer",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "isProducer",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "renounceProducer",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "producer",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "ProducerAdded",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "ProducerRemoved",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"fisco/Producer.sol": "Producer"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"fisco/Producer.sol": {
+			"keccak256": "0x4bd32c0351a939ac87e3edba3df198c9cbc2c946dbe24136c56d4fbbc322a2aa",
+			"urls": [
+				"bzzr://db4b24dec12a942e78551c40f8e5065e6ae181c72704df24ff80c0c0c5cfa24c"
+			]
+		},
+		"fisco/Roles.sol": {
+			"keccak256": "0xc2de03effc25051006ad32bec097d48e53d0a8b884323e054850f6f457dc2720",
+			"urls": [
+				"bzzr://27a83177e7eb549685f75bcba7c8b977dc51a5cb453170ba5145235832d68296"
+			]
+		}
+	},
+	"version": 1
+}

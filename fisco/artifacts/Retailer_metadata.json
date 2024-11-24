@@ -1,0 +1,120 @@
+{
+	"compiler": {
+		"version": "0.4.25+commit.59dbf8f1"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "addReatiler",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "isRetailer",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "renounceRetailer",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "retailer",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "RetailerAdded",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "RetailerRemoved",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"fisco/Retailer.sol": "Retailer"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"fisco/Retailer.sol": {
+			"keccak256": "0x9ed94c0d35af85ae293f3688ca915b93006849728332d1d22f8221ec5102c886",
+			"urls": [
+				"bzzr://96cf60e1881f605f64db3bd29e34dcfa64721f5c09fe1881d89dcd85de47c026"
+			]
+		},
+		"fisco/Roles.sol": {
+			"keccak256": "0xc2de03effc25051006ad32bec097d48e53d0a8b884323e054850f6f457dc2720",
+			"urls": [
+				"bzzr://27a83177e7eb549685f75bcba7c8b977dc51a5cb453170ba5145235832d68296"
+			]
+		}
+	},
+	"version": 1
+}

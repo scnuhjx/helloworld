@@ -1,0 +1,174 @@
+{
+	"compiler": {
+		"version": "0.4.25+commit.59dbf8f1"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "traceName",
+						"type": "string"
+					},
+					{
+						"name": "distributor",
+						"type": "address"
+					},
+					{
+						"name": "quality",
+						"type": "uint8"
+					}
+				],
+				"name": "addTraceInfoByDistributor",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getEproducts",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"name": "",
+						"type": "string"
+					},
+					{
+						"name": "",
+						"type": "string"
+					},
+					{
+						"name": "",
+						"type": "string"
+					},
+					{
+						"name": "",
+						"type": "address"
+					},
+					{
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getTraceInfo",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256[]"
+					},
+					{
+						"name": "",
+						"type": "string[]"
+					},
+					{
+						"name": "",
+						"type": "address[]"
+					},
+					{
+						"name": "",
+						"type": "uint8[]"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "traceName",
+						"type": "string"
+					},
+					{
+						"name": "retailer",
+						"type": "address"
+					},
+					{
+						"name": "quality",
+						"type": "uint8"
+					}
+				],
+				"name": "addTraceInfoByRetailer",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"name": "traceName",
+						"type": "string"
+					},
+					{
+						"name": "quality",
+						"type": "uint8"
+					},
+					{
+						"name": "producer",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"fisco/EproductsInfoItem.sol": "EproductsInfoItem"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"fisco/EproductsInfoItem.sol": {
+			"keccak256": "0xc6aa60d6927bbd490cd3a93b7df5a8a040ba398a8bac7c51a4ea15d7a8f86cc3",
+			"urls": [
+				"bzzr://c8fc2d2934f9dd61179b7bb2fc5168990c023c131c3852b8d66936d7c3ff5578"
+			]
+		}
+	},
+	"version": 1
+}

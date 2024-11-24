@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.10;
+pragma solidity 0.7.4;
 contract Array{
     //初始化数组的几种方式
     uint[] arr;

@@ -1,12 +1,10 @@
 // SPDX-License-Identifier: MIT
 //@author：hjx
 //@notice:这是用来学习存储位置的例子。
-pragma solidity ^0.8.10;
+pragma solidity ^0.8.4;
 contract Storage{
     uint public number;//storage in storage
     function setNumber(uint _number)public {
-
-
         number = _number;
     }
 

@@ -1,0 +1,5 @@
+{
+    "solidity.compileUsingRemoteVersion": "v0.4.26+commit.4563c3fc",
+    "solidity.defaultCompiler": "remote",
+    "solidity.compileUsingLocalVersion": "/Users/gdhjx/Documents/helloworld/soljson-v0.8.28+commit.7893614a.js"
+}

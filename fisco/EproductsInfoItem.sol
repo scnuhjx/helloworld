@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: MIT
+// SPDX-License-Identifier: GPL2.0
 pragma solidity >=0.4.22<0.5.0;
 pragma experimental ABIEncoderV2;
 //电子产品信息管理合约

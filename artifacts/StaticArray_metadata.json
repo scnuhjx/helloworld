@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.26+commit.8a97fa7a"
+		"version": "0.8.28+commit.7893614a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -47,11 +47,11 @@
 	},
 	"sources": {
 		"DataLeixing.sol": {
-			"keccak256": "0x998e5ff7fb31bd2de676f415b42e9be8ea60ea7c37b989128f06eb4393880bd0",
+			"keccak256": "0xb35f185446e5a206e7a425436601c0565455156fbb67fa55beec8b8e64836f22",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5100cf55e00f99166444e9c56cebc1f8b6a46e114a84a79dbb779793e984dd51",
-				"dweb:/ipfs/QmNPLztaS8YVMzQbWzZN7ZC4cXjBkmZXixmcpGp69ehVGX"
+				"bzz-raw://4a7834ee40bf7368e72e1bcb3c134279522349fcd9d7c83ee9ececd9157e6bd9",
+				"dweb:/ipfs/Qmf6p9TGEzsDaPvxxDXb62gbyjt2m8vtmF5Z23gCdPtn2r"
 			]
 		}
 	},

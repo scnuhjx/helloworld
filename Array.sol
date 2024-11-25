@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.7.4;
+pragma solidity ^0.8.26;
 contract Array{
     //初始化数组的几种方式
-    uint[] arr;
+    uint[] arr=[1];
     uint[] arr2=[1,2,3];
     uint[4] myFixedSizeArr=[1,2,3,4];
     function get(uint i) public view returns(uint){

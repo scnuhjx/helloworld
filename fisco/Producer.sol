@@ -36,7 +36,10 @@ function _removeProducer(address account)internal{
     _producers.remove(account);
     emit ProducerRemoved(account);
 }
-
+function _updateProducer(address account)internal {
+   _producers.add(account);
+    
+}
 
 
 }
